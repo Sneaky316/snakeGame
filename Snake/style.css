@@ -1,0 +1,68 @@
+.title{
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    width: 200px;
+    flex-direction: column;
+}
+.record{
+    display: flex;
+    margin: 0 auto;
+}
+.title_snake{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100x 0 50px 0;
+}
+.container-field{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.container-field_paths{
+    display: flex;
+    width: 700px;
+    height: 700px;
+}
+.field_path{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.field_point{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    width: 10px;
+    height: 10px;
+    align-self: center;
+}
+.head{
+    background-color: greenyellow;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0;
+    width: 35px;
+    height: 35px;
+}
+.tale{
+    background-color: greenyellow;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0;
+    width: 25px;
+    height: 25px;
+
+}
+.food{
+    background-color: rgb(235, 27, 27);
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+}
